@@ -1,0 +1,27 @@
+Ce projet utilise un MLP pour prédire le poids des bébés en fonction de leur âge en semaines et de leur sexe.
+Le MLP est entraîné sur un ensemble de données contenant des informations sur le sexe, l'âge en semaines et le poids des bébés.
+
+PREREQUIS : 
+
+Python 3.6 ou supérieur
+Les bibliothèques Python suivantes :
+numpy
+pandas
+scikit-learn
+keras
+matplotlib
+
+INSTALATION :
+
+1. Cloner le repository :
+git clone https://github.com/k-chanez/Perceptron-multi-couches/new/master/Perceptron_MLP
+
+2. Installer les bibliothèques Python requises en utilisant pip :
+
+UTILISATION :
+
+1.Exécuter le script Python : PYTHON nom_script.py
+
+PS : Ce script entraîne le MLP sur l'ensemble de données et teste ses performances. Les performances sont affichées à la fin de l'exécution, ainsi qu'un graphique montrant les prédictions du MLP par rapport aux valeurs réelles.
+Vous pouvez modifier les paramètres du MLP en modifiant les valeurs dans le fichier nom_script.py.
+Vous pouvez également modifier les paramètres d'entraînement, tels que le nombre d'epochs ou la taille du lot, en modifiant les valeurs correspondantes.
